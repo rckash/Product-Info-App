@@ -17,5 +17,10 @@ class SiameseActivity : AppCompatActivity() {
             startActivity(myIntent)
             finish()
         }
+        binding.imageView.setOnClickListener {
+            val myIntent = Intent(this, SiameseImageActivity::class.java)
+            startActivity(myIntent)
+            finish()
+        }
     }
 }

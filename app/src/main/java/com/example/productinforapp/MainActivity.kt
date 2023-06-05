@@ -37,5 +37,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
             finish()
         }
+        binding.txtAppName.setOnClickListener{
+            val myIntent = Intent(this, KatsekpoActivity::class.java)
+            startActivity(myIntent)
+            finish()
+        }
     }
 }

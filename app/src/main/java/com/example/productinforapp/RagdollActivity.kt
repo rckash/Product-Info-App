@@ -17,5 +17,10 @@ class RagdollActivity : AppCompatActivity() {
             startActivity(myIntent)
             finish()
         }
+        binding.imageView.setOnClickListener {
+            val myIntent = Intent(this, RagdollImageActivity::class.java)
+            startActivity(myIntent)
+            finish()
+        }
     }
 }

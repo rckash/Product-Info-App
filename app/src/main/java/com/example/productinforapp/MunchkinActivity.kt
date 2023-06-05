@@ -17,5 +17,10 @@ class MunchkinActivity : AppCompatActivity() {
             startActivity(myIntent)
             finish()
         }
+        binding.imageView.setOnClickListener {
+            val myIntent = Intent(this, MunchkinImageActivity::class.java)
+            startActivity(myIntent)
+            finish()
+        }
     }
 }

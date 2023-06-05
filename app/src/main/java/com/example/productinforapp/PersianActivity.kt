@@ -17,5 +17,10 @@ class PersianActivity : AppCompatActivity() {
             startActivity(myIntent)
             finish()
         }
+        binding.imageView.setOnClickListener {
+            val myIntent = Intent(this, PersianImageActivity::class.java)
+            startActivity(myIntent)
+            finish()
+        }
     }
 }

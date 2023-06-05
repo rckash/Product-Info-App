@@ -17,5 +17,10 @@ class SphynxActivity : AppCompatActivity() {
             startActivity(myIntent)
             finish()
         }
+        binding.imageView.setOnClickListener {
+            val myIntent = Intent(this, SphynxImageActivity::class.java)
+            startActivity(myIntent)
+            finish()
+        }
     }
 }

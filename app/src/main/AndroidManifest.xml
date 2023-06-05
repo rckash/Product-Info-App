@@ -19,6 +19,24 @@
         android:theme="@style/Theme.ProductInforApp"
         tools:targetApi="31">
         <activity
+            android:name=".KatsekpoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SphynxImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SiameseImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RagdollImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersianImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MunchkinImageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MunchkinActivity"
             android:exported="false" />
         <activity
